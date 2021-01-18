@@ -1,0 +1,29 @@
+{
+  "name": "learntesting",
+  "version": "1.0.0",
+  "description": "Learning to write Test cases for Node API",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --timeout 100000",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salmon513/LearnTesting.git"
+  },
+  "author": "Salmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salmon513/LearnTesting/issues"
+  },
+  "homepage": "https://github.com/Salmon513/LearnTesting#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "5.2.0"
+  }
+}
